@@ -43,7 +43,7 @@ export default function Home() {
             .map((m, i) => (
               <div
                 key={i}
-                className={`p-3 rounded-xl max-w-[80%] border ${m.role === 'user' ? 'self-end ml-auto' : 'self-start mr-auto'
+                className={`p-3 rounded-xl max-w-[80%] border border-[#ffffff30] ${m.role === 'user' ? 'self-end ml-auto' : 'self-start mr-auto'
                   }`}
               >
                 <p className="text-sm whitespace-pre-wrap">{m.content}</p>
